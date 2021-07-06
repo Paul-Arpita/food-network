@@ -6,23 +6,72 @@ h1{
     font-size: 40px;
     margin-bottom: 70px;
 }
-p{
+p{  
+    font-size: 15px;
     margin-bottom: 70px;
 }
 section{
     display: flex;
+    margin-bottom: 100px;
 }
 .half-width{
     width: 50%;
     padding-left: 5%;
 }
-.order-food-button{
+.button{
     text-decoration: none;
     color: white;
     background-image: radial-gradient(orange,tomato);
-    padding: 10px 20px;
-    border-radius: 20px;
+    padding: 20px 50px;
+    margin-bottom:20%;
+    border-radius: 30px;
 }
-.half-width img{
-    width: 75%;
+#first-pic{
+    width: auto;
+    height: 500px;
+}
+#second-pic{
+    width: auto;
+    height: 400px;
+    padding-left: 20%;
+    padding-top: 5%;
+}
+.back-image{
+    background-image: url(images/7.png);
+    background-size: cover;
+    background-position: center;
+  
+}
+.about-me{
+    width: 50%;
+    color: gray;
+    padding-right: 20%;
+    padding-left: 5%;
+    
+    
+}
+#my-receipes{
+    color: gray;
+    font-size: 24px;
+    text-align: center;
+}
+.receipe-box{
+    width: 30%;
+    height: 450px;
+    margin-left: 5%;
+    margin-right: 5%;
+    
+    border-radius: 30px;
+    box-shadow: 10px 10px 30px gray;
+    font-weight: 700;
+    text-align: center;
+
+}
+#first-rcp-pic{
+    height: 200px;
+    width: 350px;
+    padding-top: 5%;
+    padding-left: 5%;
+    padding-right: 5%;
+    
 }
