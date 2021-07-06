@@ -72,7 +72,13 @@ section{
     width: 265px;
     padding-top: 5%;
     
-    
-    
-    
+}
+footer{
+    text-align: center;
+    background-color: black;
+    padding-top: 1%;
+    padding-bottom: 5%;
+}
+.orange-color{
+    color: orange;
 }
